@@ -1,11 +1,11 @@
 module.exports = {
 	siteMetadata: {
-		title: `Gatsby Starter Paperbase Dashboard`,
-		author: `Marc Arbesman`,
-		description: `A starter dashboard demonstrating Material UI's Paperbase theme in Gatsby`,
-		siteUrl: `https://gatsby-starter-paperbase-demo.netlify.com/`,
+		title: `Chrome Tab Rotate CMS`,
+		author: `Damien Laureaux`,
+		description: `A CMS for the Tab Rotate Chrome extension that consumes the Chrome Tab Rotate Server API`,
+		siteUrl: `https://github.com/timoa/chrome-tab-rotate-cms/`,
 		social: {
-			twitter: `willcode4food`,
+			twitter: `timoa`,
 		},
 	},
 	plugins: [

@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-paperbase",
-  "version": "1.0.0",
-  "description": "A Gatsby Starter for using Material UI's Paperbase premium theme.  Great for making admin tools and dashboards.",
+  "name": "chrome-tab-rotate-cms",
+  "version": "0.1.0",
+  "description": "A CMS for the Tab Rotate Chrome extension",
   "main": "index.js",
-  "repository": "https://github.com/willcode4food/gatsby-starter-paperbase",
-  "author": "Marc Arbesman marbesman@gmail.com",
+  "repository": "https://github.com/timoa/chrome-tab-rotate-cms",
+  "author": "Damien Laureaux",
   "license": "MIT",
   "private": false,
   "dependencies": {
