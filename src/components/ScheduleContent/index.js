@@ -40,7 +40,7 @@ const styles = theme => ({
 	},
 })
 const tabNames = ['Files', 'Rules', 'Usage']
-function StorageContent({ classes }) {
+function ScheduleContent({ classes }) {
 	return (
 		<>
 			<TabBar tabNames={tabNames} />
@@ -87,8 +87,8 @@ function StorageContent({ classes }) {
 	)
 }
 
-StorageContent.propTypes = {
+ScheduleContent.propTypes = {
 	classes: PropTypes.object.isRequired,
 }
 
-export default withStyles(styles)(StorageContent)
+export default withStyles(styles)(ScheduleContent)

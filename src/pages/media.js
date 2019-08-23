@@ -1,16 +1,17 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Layout from 'components/Layout'
-import Content from 'components/Content'
-function HostingPage({ location }) {
+import MediaContent from 'components/MediaContent'
+
+function MediaPage({ location }) {
 	const pageTitle = location ? location.pathname.replace(/\//g, '') : ''
 	return (
 		<Layout location={location} title={pageTitle}>
-			<Content />
+			<MediaContent />
 		</Layout>
 	)
 }
-HostingPage.propTypes = {
+MediaPage.propTypes = {
 	location: PropTypes.object,
 }
-export default HostingPage
+export default MediaPage
